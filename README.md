@@ -16,3 +16,10 @@ IC 74LS241 Pin out
 ![Maker Tutor](https://3.bp.blogspot.com/-uiekcEzafyU/Wm7trpZiIGI/AAAAAAABANA/oGn-dDzoHPQGIk6Y0imhS-F4UGoh3Bm8gCLcBGAs/s640/g4084.png)
 Schematic diagram
 ![](https://3.bp.blogspot.com/-5z_xCRi2_IA/Wm6RQb6rbdI/AAAAAAABAIc/BBZIP_DgDAcuWtfGwlymuSlqUDPHnQ4uQCLcBGAs/s640/ax120half_bb.jpg)
+
+//  function AX12A.h
+int readTemperature(unsigned char ID);
+int readVoltage(unsigned char ID);
+int readPosition(unsigned char ID);
+int readSpeed(unsigned char ID);
+int readLoad(unsigned char ID);
