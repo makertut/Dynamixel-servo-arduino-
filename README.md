@@ -17,9 +17,9 @@ IC 74LS241 Pin out
 Schematic diagram
 ![](https://3.bp.blogspot.com/-5z_xCRi2_IA/Wm6RQb6rbdI/AAAAAAABAIc/BBZIP_DgDAcuWtfGwlymuSlqUDPHnQ4uQCLcBGAs/s640/ax120half_bb.jpg)
 
-//  function AX12A.h
-int readTemperature(unsigned char ID);
-int readVoltage(unsigned char ID);
-int readPosition(unsigned char ID);
-int readSpeed(unsigned char ID);
-int readLoad(unsigned char ID);
+//  function AX12A.h <br>
+int readTemperature(unsigned char ID);<br>
+int readVoltage(unsigned char ID);<br>
+int readPosition(unsigned char ID);<br>
+int readSpeed(unsigned char ID);<br>
+int readLoad(unsigned char ID);<br>
